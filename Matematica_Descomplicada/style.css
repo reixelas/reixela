@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.cabecalho{
+    background-color:#9c0404;
+    color:rgb(39, 38, 38); 
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    font-size: 16px;
+}
+
+.cabecalhoImagem{
+    width: 25%;
+
+}
+
+body{
+    background-color: rgb(248, 8, 8);
+}
+li{
+    color:rgb(22, 22, 22);
+}
+
+.cabecalhoListaItem{
+    display:inline-block;
+    margin: 0 16px;
+    padding: 24 0px;
+}
+li{
+    color:rgb(10, 10, 10);
+}
+.sobreImagem{ 
+    width: 22%;
+}
+.sobre{
+    background-image: linear-gradient(#d60606,rgb(160, 4, 4));
+    color:rgb(3, 0, 0);
+    display:flex;
+}
+.membroImagem{
+  width: 120px;
+}
+.membroIcone{
+    width: 40px;
+}
+.membroDiv{
+    text-align: center;
+}
+.membrosTitulo{
+    text-align: center;
+    padding: 50px;
+}
